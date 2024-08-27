@@ -1,0 +1,28 @@
+/* App.css */
+html, body, #root, .container-fluid {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.container-fluid {
+  display: flex;
+  flex-grow: 1;
+  overflow: hidden;
+}
+
+.row {
+  flex-grow: 1;
+  display: flex;
+  overflow: hidden;
+}
+
+.col-xs-3, .col-xs-9 {
+  overflow: auto;
+}
